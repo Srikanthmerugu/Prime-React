@@ -1,38 +1,261 @@
-.App {
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+header {
+  background: rgba(41, 35, 21, 0.35);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.2px);
+-webkit-backdrop-filter: blur(6.2px);
+border: 1px solid rgba(37, 27, 0, 0.12);
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0 4%;
+}
+ul{
+  position: sticky;
+  top: 0;
+}
+
+nav ul div h2{
+  color: #f1c40f;
+}
+.landing-page-link{
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+.landing-page-logo{
+  color: rgb(208, 143, 21);
+}
+
+nav a {
+  color: #f1c40f;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: rgb(201, 192, 176);
+}
+.sub-landing-page{
+  background-image: url('https://img.freepik.com/premium-photo/burger-fries-with-ketchup-mustard_1265500-70376.jpg?w=1060');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Hero Section Styles */
+.hero {
+
+  color: #fff;
+  padding: 4rem;
+  text-align: start;
+  width: 60vw;
+  /* background-attachment: fixed; */
+
+
+}
+.hero-title{
+  color: #f1c40f;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease 0.5s backwards;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: start;
+  animation: slideUp 1s ease 1s backwards;
+}
+
+.search-bar .p-inputtext {
+  border-radius: 20px 0 0 20px;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.search-bar .p-button {
+  border-radius: 0 20px 20px 0;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+}
+
+/* Featured Items Styles */
+.featured-items {
+  padding: 4rem 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.featured-items h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.food-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+.food-item img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: zoomIn 0.5s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.food-item h3 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  animation: fadeIn 0.5s ease 0.5s backwards;
+}
+
+.food-item p {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  animation: fadeIn 0.5s ease 1s backwards;
+}
+
+/* About Section Styles */
+.about {
+  background-color: #f5f5f5;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 1s ease;
+}
+
+.about p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  animation: fadeIn 1s ease 0.5s backwards;
+}
+
+.about .p-button {
+  animation: slideUp 1s ease 1s backwards;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  100% {
+    opacity: 1;
   }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* ==================================================
+            landing page CSS End here
+===================================================== */
+
+
+/* ==================================================
+            About CSS start here
+===================================================== */
+
+.about-page {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  /* background-color: #f9f9f9; */
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.company-overview, .team-section, .why-choose-us, .testimonials {
+  margin: 2rem 0;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-footer {
+  text-align: center;
+  margin-top: 2rem;
 }
