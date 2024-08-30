@@ -1,3 +1,4 @@
+
 Food Delivery Website
 Overview
 A Food Delivery Website built using React.js and PrimeReact. It allows users to browse restaurants, view menus, add items to the cart, and place orders. The website is designed to be responsive and user-friendly.
@@ -23,5 +24,15 @@ This project is licensed under the MIT License.
 
 This summary covers the essential details while keeping it brief.
 
-Screenshots![Screenshot 2024-08-30 140816](https://github.com/user-attachments/assets/7fa67b87-8bc3-45e3-88af-6d92b1f8a80b)![Screenshot 2024-08-29 141500](https://github.com/user-attachments/assets/4b08c812-251b-4b58-ac82-08b68b26b7ff)
+Hero Page
+Screenshots![Screenshot 2024-08-30 140816](https://github.com/user-attachments/assets/7fa67b87-8bc3-45e3-88af-6d92b1f8a80b)!
+
+Featured Items
+[Screenshot 2024-08-29 141500](https://github.com/user-attachments/assets/4b08c812-251b-4b58-ac82-08b68b26b7ff)
+
+Meet Our Team
+![Screenshot 2024-08-30 171217](https://github.com/user-attachments/assets/a2a0e115-0f63-4f11-9324-aebaf503aed3)
+
+Footer
+![Screenshot 2024-08-30 171145](https://github.com/user-attachments/assets/e653bafb-7f22-44ce-9f54-f40a770f7d04)
 
