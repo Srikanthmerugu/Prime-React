@@ -53,7 +53,8 @@ nav a:hover {
   color: rgb(201, 192, 176);
 }
 .sub-landing-page{
-  background-image: url('https://img.freepik.com/premium-photo/burger-fries-with-ketchup-mustard_1265500-70376.jpg?w=1060');
+  /* background-image: url('https://img.freepik.com/premium-photo/burger-fries-with-ketchup-mustard_1265500-70376.jpg?w=1060'); */
+  background-image: url('https://img.freepik.com/premium-photo/dark-photo-background_111797-1681.jpg?w=1060');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
