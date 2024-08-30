@@ -54,10 +54,11 @@ To run this project locally, follow these steps:
 ![Featured Items](https://github.com/user-attachments/assets/4b08c812-251b-4b58-ac82-08b68b26b7ff)
 
 ### Meet Our Team
-![Meet Our Team](https://github.com/user-attachments/assets/a2a0e115-0f63-4f11-9324-aebaf503aed3)
+![Meet Our Team](https://github.com/user-attachments/assets/e653bafb-7f22-44ce-9f54-f40a770f7d04)
 
 ### Footer
-![Footer](https://github.com/user-attachments/assets/e653bafb-7f22-44ce-9f54-f40a770f7d04)
+![Footer](https://github.com/user-attachments/assets/a2a0e115-0f63-4f11-9324-aebaf503aed3)
+
 
 ## 📜 License
 
