@@ -29,6 +29,7 @@ const FoodDeliveryLandingPage = () => {
   const itemTemplate = (item) => {
     return (
       <div className="food-item">
+        
         <img src={item.image} alt={item.name} />
         <h3>{item.name}</h3>
         <p>{item.description}</p>
@@ -39,9 +40,19 @@ const FoodDeliveryLandingPage = () => {
   return (
     <div className="landing-page">
         <div className='sub-landing-page'>
-        <header>
-        <nav>
-          <ul>
+
+        <header >
+        <div class="marquee-container">
+        <div class="marquee-content">
+            <p> 30% 𝓞𝓯𝓯 𝓸𝓷 𝓟𝓲𝔃𝔃𝓪𝓼 || 40% 𝓞𝓯𝓯 𝓸𝓷 𝓑𝓾𝓻𝓰𝓮𝓻</p>
+            <p> 30% 𝓞𝓯𝓯 𝓸𝓷 𝓟𝓲𝔃𝔃𝓪𝓼 || 40% 𝓞𝓯𝓯 𝓸𝓷 𝓑𝓾𝓻𝓰𝓮𝓻</p>
+            <p> 30% 𝓞𝓯𝓯 𝓸𝓷 𝓟𝓲𝔃𝔃𝓪𝓼 || 40% 𝓞𝓯𝓯 𝓸𝓷 𝓑𝓾𝓻𝓰𝓮𝓻</p>
+       
+        </div>
+    </div>
+    {/* <div className='fixed-navabar'>   
+        <nav  className='fixed-navabar'>
+          <ul  className='fixed-navabar'>
             <li><h2 className='landing-page-logo'>𝔣σ𝓞ᗪ ρ𝐀ᎶＥ</h2></li>
             <div className='landing-page-link'>
               <li><a href="#home">Home</a></li>
@@ -51,6 +62,22 @@ const FoodDeliveryLandingPage = () => {
             </div>
           </ul>
         </nav>
+        </div> */}
+        <div className="navbar-container">   
+  <nav className="navbar">
+    <ul className="navbar-list">
+      <li><h2 className="landing-page-logo">𝔣σ𝓞ᗪ ρ𝐀ᎶＥ</h2></li>
+      <div className="landing-page-link">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </div>
+    </ul>
+  </nav>
+</div>
+
+     
       </header>
 
       <section className="hero">
@@ -100,7 +127,10 @@ const FoodDeliveryLandingPage = () => {
       </main>
 
       <footer>
-        <p>&copy; 2023 Food Delivery. All rights reserved.</p>
+        
+        <p  className="landing-page-logo">© 2024 𝔣σ𝓞ᗪ ρ𝐀ᎶＥ. All rights reserved.</p>
+        {/* <li><h2 className="landing-page-logo">𝔣σ𝓞ᗪ ρ𝐀ᎶＥ</h2></li> */}
+
       </footer>
     </div>
   );

@@ -3,18 +3,22 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="about-page">
-      <header className="about-header">
-        <h1>About Us</h1>
-        <p>Delivering Freshness to Your Doorstep</p>
-      </header>
-
-      <section className="company-overview">
+    <>
+    <div className='bg-aboutus'>
+      
+    </div>
+    {/* <section className="company-overview">
         <h2>Our Story</h2>
         <p>We are committed to providing the best food delivery experience with quality and speed. Our journey began with a simple idea: to make delicious food accessible to everyone.</p>
-      </section>
-
-      <section className="team-section">
+      </section> */}
+    <div className="about-page">
+      {/* <div className="about-header">
+        <h1>About Us</h1>
+        <p>Delivering Freshness to Your Doorstep</p>
+      </div> */}
+     
+  
+    <section className="team-section">
         <h2>Meet Our Team</h2>
         <div className="team-members">
           {/* Example team member */}
@@ -35,8 +39,8 @@ const About = () => {
           </div>
         </div>
       </section>
-
-      <section className="why-choose-us">
+      <div className='overview-container'>
+      {/* <section className="why-choose-us">
         <h2>Why Choose Us?</h2>
         <ul>
           <li>Fast delivery times</li>
@@ -44,17 +48,49 @@ const About = () => {
           <li>High-quality food</li>
           <li>Excellent customer service</li>
         </ul>
-      </section>
+      </section> */}
 
-      <section className="testimonials">
+    </div>
+    
+
+     
+
+      {/* <section className="testimonials">
         <h2>Customer Testimonials</h2>
         <blockquote>"Best food delivery service ever! Highly recommended!" - Jane Smith</blockquote>
-      </section>
+      </section> */}
 
-      <footer className="about-footer">
-        <p>&copy; 2023 Food Delivery. All rights reserved.</p>
-      </footer>
+    
+    </div> 
+    <footer className="about-footer">
+      <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <h1>𝔣σ𝓞ᗪ ρ𝐀ᎶＥ</h1>
     </div>
+
+    <div class="footer-social">
+      <a href="#" class="social-icon" target="_blank" aria-label="Facebook"><i class="pi pi-facebook"></i></a>
+      <a href="#" class="social-icon" target="_blank" aria-label="Twitter"><i class="pi pi-twitter"></i></a>
+      <a href="#" class="social-icon" target="_blank" aria-label="Instagram"><i class="pi pi-instagram"></i></a>
+      <a href="#" class="social-icon" target="_blank" aria-label="YouTube"><i class="pi pi-youtube"></i></a>
+    </div>
+
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Menu</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </div>
+
+    {/* <p class="footer-text">© 2024 𝔣σ𝓞ᗪ ρ𝐀ᎶＥ. All rights reserved.</p> */}
+  </div>
+</footer>
+
+
+      
+      </footer>
+       </>
   );
 };
 
